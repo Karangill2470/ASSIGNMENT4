@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the webpage -->
+    <title>Open Exchange Rates API</title>
+
+    <!-- Favicon links for different sizes -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS for additional styling -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">Exchange Rates</a>
+
+            <!-- Toggle button for collapsing menu on smaller screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content container -->
+    <div class="container mt-5">
+        <!-- Page heading -->
+        <h1 class="mb-4 text-center">Open Exchange Rates API</h1>
+
+        <!-- Student information paragraph -->
+        <p id="student-info" class="text-center"></p>
+
+        <!-- API attribution paragraph -->
+        <p class="text-center">API provided by <a href="https://openexchangerates.org/" target="_blank">Open Exchange Rates <span>&#x1F517;</span></a></p>
+
+        <!-- Container for displaying exchange rates -->
+        <div id="exchange-rates" class="mt-4">
+            <!-- Exchange rates will be displayed here -->
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <!-- Popper.js for Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JavaScript file for application logic -->
+    <script src="./js/app.js" defer></script>
+</body>
+
+</html>
